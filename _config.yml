@@ -37,7 +37,7 @@ additional_links:
 
   - title: My CV
     icon: fas fa-file-alt
-    url: Files/Resume_Rishab_Kashyap.pdf
+    url: /Files/Resume_Rishab_Kashyap.pdf
 
   - title: Google Scholar
     icon: fas fa-book
