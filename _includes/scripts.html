@@ -1,0 +1,26 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.modal-trigger').forEach(function (el) {
+        el.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = el.getAttribute('href')?.substring(1);
+          const modal = document.getElementById(target);
+          if (modal) {
+            modal.classList.add('show');
+            const closeBtn = modal.querySelector('.close-modal');
+            if (closeBtn) {
+              closeBtn.addEventListener('click', function () {
+                modal.classList.remove('show');
+              });
+            }
+            modal.addEventListener('click', function (e) {
+              if (e.target === modal) {
+                modal.classList.remove('show');
+              }
+            });
+          }
+        });
+      });
+    });
+  </script>
+  

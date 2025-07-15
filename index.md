@@ -7,3 +7,6 @@
 #
 layout: default
 ---
+
+<!-- Include modals if needed -->
+{% include modals.html %}
