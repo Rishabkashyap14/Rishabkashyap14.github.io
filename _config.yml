@@ -19,7 +19,7 @@ darkmode: false
 # twitter_username: facespics
 github_username:  Rishabkashyap14
 # google_scholar: https://scholar.google.com/citations?user=c9v99TUAAAAJ&hl=en 
-# stackoverflow_username: "00000001"
+stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
@@ -41,9 +41,9 @@ orcid_username: 0000-0002-7127-9884
 #   url: Link url (eg. https://google.com)
 # a-brands fa-google-scholar
 
-- title: Google Scholar
-  icon: fas fa-globe
-  url: https://scholar.google.com/citations?user=c9v99TUAAAAJ&hl=en
+# - title: Google Scholar
+#   icon: fas fa-globe
+#   url: https://scholar.google.com/citations?user=c9v99TUAAAAJ&hl=en
 
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
