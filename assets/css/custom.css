@@ -1,0 +1,28 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+  }
+  
+  .modal:target {
+    display: block;
+  }
+  
+  .modal-content {
+    background: white;
+    margin: 5% auto;
+    padding: 2rem;
+    max-width: 600px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .close-modal {
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+  }
+  

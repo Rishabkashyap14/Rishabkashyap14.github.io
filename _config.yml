@@ -79,41 +79,21 @@ content:
     content:
       - layout: top-middle
         title: Classification of Malicious URLs
-        link: https://github.com/Rishabkashyap14/URL-Classifier
-        link_text: GitHub Repo
-        additional_links:
-          - title: View on GitHub
-            icon: fab fa-github
-            url: https://github.com/Rishabkashyap14/URL-Classifier
-        quote: >
-          Classification of Malicious URLs using Machine Learning
+        modal-id: modal-malicious
         description: |
-          This project uses various machine learning models (including LSTM and Random Forest) to forecast air pollutant concentrations using public datasets. It includes full preprocessing pipelines, model evaluation, and visualization dashboards.
+          Click <a href="#modal-malicious" class="modal-trigger">here</a> for details.
 
       - layout: top-middle
         title: Movie Success Prediciton
-        link: https://github.com/Rishabkashyap14/Movie-success-predictor
-        link_text: View Site Source
-        additional_links:
-          - title: GitHub Repo
-            icon: fab fa-github
-            url: https://github.com/Rishabkashyap14/Movie-success-predictor
-        quote: >
-          Movie Success Prediciton
+        modal-id: modal-movies
         description: |
-          Data Analysis and Time Series prediction of whether a movie yet to be released would be successful or not
+          Click <a href="#modal-movies" class="modal-trigger">here</a> for details.
 
       - layout: top-middle
         title: Habitability of Exoplanets
-        link: https://github.com/Rishabkashyap14/CSE_575_Habitability
-        additional_links:
-          - title: GitHub Repo
-            icon: fab fa-github
-            url: https://github.com/Rishabkashyap14/CSE_575_Habitability
-        quote: >
-          Detection of habitability of NASA exoplanets
+        modal-id: modal-exoplanets
         description: |
-          Classifying whether a given planet from the NASA kepler dataset is possibly habitable or not using a variety of Machine Learning Techniques
+          Click <a href="#modal-exoplanets" class="modal-trigger">here</a> for details.
 
 
 
