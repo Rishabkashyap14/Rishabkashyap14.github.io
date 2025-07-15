@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Rishab Kashyap
-title: Masters Thesis Student at Arizona State University
+title: Masters of Science in Computer Science at Arizona State University
 email: rkashya6@asu.edu
 phone: +1 6028779651
 # website: https://github.com/Rishabkashyap14/Rishabkashyap14.github.io
@@ -132,6 +132,7 @@ content:
       - layout: top-middle
         title: ADAPT - Automated Parallel Training for ML workloads on Heterogeneous Systems
         description: |
+        
           <div style="display: flex; align-items: center; justify-content: space-between; gap: 1em;">
             <img src="images/Data_Parallelism_1.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
             <div>
@@ -149,6 +150,10 @@ content:
         title: Classification of Malicious URLs using an Ensemble Machine Learning Strategies
         description: |
           <div style="display: flex; align-items: center; justify-content: space-between; gap: 1em;">
+            <a href="https://github.com/Rishabkashyap14/URL-Classifier" target="_blank"
+              style="position: absolute; top: 10px; right: 10px;">
+              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 24px; height: 24px;" />
+            </a>
             <img src="images/URLs.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
             <div>
               <ul>
@@ -165,7 +170,30 @@ content:
         title: Movie Success Prediction using various Machine Learning Techniques
         description: |
           <div style="display: flex; align-items: center; justify-content: space-between; gap: 1em;">
-            <img src="images/URLs.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
+            <a href="https://github.com/Rishabkashyap14/Movie-success-predictor" target="_blank"
+              style="position: absolute; top: 10px; right: 10px;">
+              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 24px; height: 24px;" />
+            </a>
+            <img src="images/Movies.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
+            <div>
+              <ul>
+                <li> Implementation of an efficient and optimized parallel training strategy</li>
+                <li> Utilizes Data, Model and Pipeline Parallel training formats. Tensor Parallel training is experimental.</li>
+                <li> Automated training code that identifies optimal strategies using cost functions.</li>
+                <li> Github link will be available soon </li>
+              </ul>
+            </div>
+          </div>
+
+      - layout: top-middle
+        title: Classification of Habitable Exoplanets using Machine Learning Methods
+        description: |
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 1em;">
+            <a href="https://github.com/Rishabkashyap14/CSE_575_Habitability" target="_blank"
+              style="position: absolute; top: 10px; right: 10px;">
+              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 24px; height: 24px;" />
+            </a>
+            <img src="images/Exoplanets.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
             <div>
               <ul>
                 <li> Implementation of an efficient and optimized parallel training strategy</li>
