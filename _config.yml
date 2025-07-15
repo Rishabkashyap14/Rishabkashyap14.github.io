@@ -31,6 +31,10 @@ linkedin_username: rishab-kashyap-4bb577195
 # googleplus_username: +jekyll
 orcid_username: 0000-0002-7127-9884
 additional_links:
+  - title: Google Scholar
+    icon: fas fa-book
+    url: https://scholar.google.com/citations?user=c9v99TUAAAAJ&hl=en
+
   - title: Email Me
     icon: fas fa-envelope
     url: "mailto:rishabkashyap14@gmail.com"
@@ -38,11 +42,6 @@ additional_links:
   - title: My CV
     icon: fas fa-file-alt
     url: https://drive.google.com/file/d/1NBDoj9UT9ddQBbY0GNEg5_DjSZ9gkkEE/view?usp=sharing
-
-  - title: Google Scholar
-    icon: fas fa-book
-    url: https://scholar.google.com/citations?user=c9v99TUAAAAJ&hl=en
-
 
 # Additional icon links
 # additional_links:
@@ -75,24 +74,48 @@ about_content: | # this will include new lines to allow paragraphs
   Hello ! My name is Rishab Kashyap and I am a Masters of Science in Computer Science student at Arizona State University. I work as a student researcher at [MPS Lab](https://labs.engineering.asu.edu/mps-lab/) in the field of Machine Learning Accelerators and Optimizations.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: Classification of Malicious URLs
+        link: https://github.com/Rishabkashyap14/URL-Classifier
+        link_text: GitHub Repo
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: View on GitHub
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: https://github.com/Rishabkashyap14/URL-Classifier
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Classification of Malicious URLs using Machine Learning
+        description: |
+          This project uses various machine learning models (including LSTM and Random Forest) to forecast air pollutant concentrations using public datasets. It includes full preprocessing pipelines, model evaluation, and visualization dashboards.
+
+      - layout: top-middle
+        title: Movie Success Prediciton
+        link: https://github.com/Rishabkashyap14/Movie-success-predictor
+        link_text: View Site Source
+        additional_links:
+          - title: GitHub Repo
+            icon: fab fa-github
+            url: https://github.com/Rishabkashyap14/Movie-success-predictor
+        quote: >
+          Movie Success Prediciton
+        description: |
+          Data Analysis and Time Series prediction of whether a movie yet to be released would be successful or not
+
+      - layout: top-middle
+        title: Habitability of Exoplanets
+        link: https://github.com/Rishabkashyap14/CSE_575_Habitability
+        additional_links:
+          - title: GitHub Repo
+            icon: fab fa-github
+            url: https://github.com/Rishabkashyap14/CSE_575_Habitability
+        quote: >
+          Detection of habitability of NASA exoplanets
+        description: |
+          Classifying whether a given planet from the NASA kepler dataset is possibly habitable or not using a variety of Machine Learning Techniques
+
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
