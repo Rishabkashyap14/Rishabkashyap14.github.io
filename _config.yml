@@ -9,7 +9,7 @@ version: 2
 name: Rishab Kashyap
 title: Masters Thesis Student at Arizona State University
 email: rkashya6@asu.edu
-phone: +16028779651
+phone: +1 6028779651
 # website: https://github.com/Rishabkashyap14/Rishabkashyap14.github.io
 
 # Dark Mode (true/false/never)
@@ -33,11 +33,11 @@ orcid_username: 0000-0002-7127-9884
 additional_links:
   - title: Email Me
     icon: fas fa-envelope
-    url: mailto:rkashya6@asu.edu
+    url: "mailto:rkashya6@asu.edu"
 
   - title: My CV
     icon: fas fa-file-alt
-    url: /Files/Resume_Rishab_Kashyap.pdf
+    url: https://drive.google.com/file/d/1NBDoj9UT9ddQBbY0GNEg5_DjSZ9gkkEE/view?usp=sharing
 
   - title: Google Scholar
     icon: fas fa-book
