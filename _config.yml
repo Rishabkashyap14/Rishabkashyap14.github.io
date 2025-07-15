@@ -6,13 +6,13 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Rishab Kashyap
+title: Masters Thesis Student at Arizona State University
+email: rkashya6@asu.edu
+website: https://github.com/Rishabkashyap14/Rishabkashyap14.github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 twitter_username: facespics
