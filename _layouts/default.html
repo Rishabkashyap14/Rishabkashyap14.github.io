@@ -8,22 +8,22 @@
   <!-- Theme + Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-  <!-- Font Awesome (if needed for icons) -->
+  <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  {% seo %}  {# Only if you're using jekyll-seo-tag plugin #}
+  {% seo %}  <!-- Only if you're using jekyll-seo-tag plugin -->
 </head>
 <body>
 
-  <!-- Main site content -->
+  <!-- Main page content -->
   {{ content }}
 
-  <!-- Modals (your custom popups) -->
+  <!-- Modals -->
   {% include modals/exoplanets.html %}
   {% include modals/malicious.html %}
   {% include modals/movies.html %}
 
-  <!-- Optional: Custom JavaScript for modal behavior -->
+  <!-- Modal JS (optional) -->
   <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
 
 </body>
