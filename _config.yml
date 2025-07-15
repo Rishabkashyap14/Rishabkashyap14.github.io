@@ -18,7 +18,7 @@ darkmode: false
 # Social links
 # twitter_username: facespics
 github_username:  Rishabkashyap14
-google_scholar: https://scholar.google.com/citations?user=c9v99TUAAAAJ&hl=en 
+# google_scholar: https://scholar.google.com/citations?user=c9v99TUAAAAJ&hl=en 
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -30,6 +30,11 @@ linkedin_username: rishab-kashyap-4bb577195
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
 orcid_username: 0000-0002-7127-9884
+additional_links:
+  - title: Google Scholar
+    icon: fas fa-book
+    url: https://scholar.google.com/citations?user=c9v99TUAAAAJ&hl=en
+
 
 # Additional icon links
 # additional_links:
