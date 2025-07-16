@@ -71,7 +71,7 @@ additional_links:
 about_title: ABOUT ME
 about_profile_image: images/Profile_pic.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hello ! My name is Rishab Kashyap and I am a Masters of Science in Computer Science student at Arizona State University. I work as a student researcher at [MPS Lab](https://labs.engineering.asu.edu/mps-lab/) in the field of Machine Learning Accelerators and Optimizations under the guidance of [Dr Aviral Shrivastava](https://search.asu.edu/profile/969623). I am currently looking for job opportunities in the field of Machine Learning, Data Science, Software Engineering, Robotics and Big Data Systems.
+  Hello and welcome to my website! My name is Rishab Kashyap and I am a Masters of Science in Computer Science student at Arizona State University. I work as a student researcher at [MPS Lab](https://labs.engineering.asu.edu/mps-lab/) in the field of Machine Learning Accelerators and Optimizations under the guidance of [Dr Aviral Shrivastava](https://search.asu.edu/profile/969623). I am currently looking for job opportunities in the field of Machine Learning, Data Science, Software Engineering, Robotics and Big Data Systems.
 
 content:
   - title: MY SKILLSET
