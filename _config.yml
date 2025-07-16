@@ -41,7 +41,7 @@ additional_links:
 
   - title: My CV
     icon: fas fa-file-alt
-    url: https://drive.google.com/file/d/1NBDoj9UT9ddQBbY0GNEg5_DjSZ9gkkEE/view?usp=sharing
+    url: https://drive.google.com/file/d/1cJy6jMX713lF5gxayFM9Ak9VaOxEcnp1/view?usp=sharing
 
 # Additional icon links
 # additional_links:
@@ -136,7 +136,7 @@ content:
     content:
       - layout: left
         title: Graduate Student Researcher
-        link: asu.com
+        link: https://www.asu.edu/
         sub_title: Arizona State University
         caption: August 2023 - Present
         quote: >
@@ -149,7 +149,7 @@ content:
 
       - layout: left
         title: Computer Architecture GSA
-        link: asu.com
+        link: https://www.asu.edu/
         sub_title: Arizona State University
         caption: August 2023 - May 2025
         quote: >
@@ -163,7 +163,7 @@ content:
 
       - layout: left
         title: Teaching Assistant for BIO194
-        link: asu.com
+        link: https://www.asu.edu/
         sub_title: Arizona State University
         caption: August 2023 - May 2025
         quote: >
@@ -176,15 +176,31 @@ content:
 
       - layout: left
         title: Student Researcher at the Holechek Lab
-        link: asu.com
+        link: https://www.asu.edu/
         sub_title: Arizona State University
         caption: January 2024 - December 2024
         quote: >
           Student Researcher under Dr Holechek to perform Data Analysis on sensitive health data
         description: | # this will include new lines to allow paragraphs
             - Performed under the guidance of [Dr Holechek](https://search.asu.edu/profile/654883) and support from the [All of Us](https://allofus.nih.gov/) foundation.
-            - Aim: To identify the ill effects of obesity among the Hispanic community
-            - Performed Data Analysis on data provided by the All of Us foundation, funded by the [NIH](https://www.nih.gov/)
+            - Aim: To identify the ill effects of obesity among the Hispanic community.
+            - Performed Data Analysis on data provided by the All of Us foundation, funded by the [NIH](https://www.nih.gov/).
+      
+      - layout: left
+        title: Research Intern
+        link: https://iudx.org.in/
+        sub_title: Indian Urban Data Exchange (IUDX), Bengaluru
+        caption: October 2021 - July 2022
+        quote: >
+          Research Intern for Secure Multiparty Machine learning Computation
+        description: | # this will include new lines to allow paragraphs
+            - Startup located at Indian Institute of Science (IISc), Bengaluru, India.
+            - 10 month research internship under the guidance of [Dr Abhay Sharma](https://www.linkedin.com/in/abhay-sharma-2b319316/) and [Dr Anshoo Tandon](https://anshootandon.github.io/profile/)
+            - Responsible for performing research on multi-party encrytion that allows multiple users to collaborate ona  single project with their own sensitive data while ensuring data privacy.
+            - Codebase is written in C++ using standard libraries and boost libraries to implement complex techniques.
+            - Utilizes the concepts of Machine Learning, Secure Multi-Party Computing, and Homomorphic Encryption schemes.
+            - The role included system development, risk evaluation, testing, concept evaluation, and implementation.
+            - Extensive In-depth research into papers for conceptual clarity and possible improvements on existing systems.
 
 
 
