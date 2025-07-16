@@ -89,11 +89,12 @@ content:
             <a href = "https://simple.wikipedia.org/wiki/HTML" target="_blank"><img width=50px height=50px src="https://img.icons8.com/color/2x/html-5.png"></a>
             <a href = "https://en.wikipedia.org/wiki/CSS" target="_blank"><img width=50px height=50px src="https://img.icons8.com/color/2x/css3.png"></a>
             <a href = "https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank"><img width=50px height=50px src="https://img.icons8.com/color/2x/bootstrap.png"></a>
-            <a href = "https://en.wikipedia.org/wiki/Node.js" target="_blank"><img width=50px height=50px src="https://img.icons8.com/color/2x/nodejs.png"></a>            
+            <a href = "https://en.wikipedia.org/wiki/Node.js" target="_blank"><img width=50px height=50px src="https://img.icons8.com/color/2x/nodejs.png"></a>
             <a href = "https://en.wikipedia.org/wiki/R_(programming_language)" target="_blank"><img width=50px height=50px src="https://img.icons8.com/external-becris-flat-becris/2x/external-r-data-science-becris-flat-becris.png" target="_blank"></a>
             <a href = "https://en.wikipedia.org/wiki/MySQL" target="_blank"><img width=50px height=50px src="https://img.icons8.com/color/2x/mysql-logo.png"></a>
             <a href = "https://en.wikipedia.org/wiki/CUDA" target="_blank"><img width=100px height=50px src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Nvidia_CUDA_Logo.jpg"></a>
             <a href = "https://en.wikipedia.org/wiki/Flask_(web_framework)" target="_blank"><img width=50px height=50px src="https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=png&color=000000"></a>
+            <hr style="width: 100%; margin: 1em auto; border-top: 1px dotted #ccc;" />
 
       - layout: left
         title: Machine Learning Libraries -
@@ -108,6 +109,7 @@ content:
             <a href = "https://scikit-learn.org/" target="_blank"><img width=75px height=50px src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png"></a>
             <a href = "https://scipy.org/" target="_blank"><img width=50px height=50px src="https://scipy.org/images/logo.svg"></a>
             <a href = "https://www.ibm.com/quantum/qiskit" target="_blank"><img width=100px height=50px src="https://repository-images.githubusercontent.com/83821669/9207357a-cf9b-45ed-9974-0abc3df14b95"></a>
+            <hr style="width: 100%; margin: 1em auto; border-top: 1px dotted #ccc;" />
 
       - layout: left
         title: Tools, Concepts, OS -
@@ -133,7 +135,7 @@ content:
         title: ADAPT - Automated Parallel Training for ML workloads on Heterogeneous Systems
         description: |
         
-          <div style="display: flex; align-items: center; justify-content: space-between; gap: 1em;">
+          <div style="margin-top: 2em; margin-bottom: 4em; display: flex; align-items: center; justify-content: space-between; gap: 1em;">
             <img src="images/Data_Parallelism_1.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
             <div>
               <ul>
@@ -144,12 +146,13 @@ content:
               </ul>
             </div>
           </div>
+          <hr style="width: 50%; margin: 1em auto; border-top: 1px dotted #ccc;" />
           
 
       - layout: top-middle
         title: Classification of Malicious URLs using an Ensemble Machine Learning Strategies
         description: |
-          <div style="display: flex; align-items: center; justify-content: space-between; gap: 1em;">
+          <div style="margin-top: 2em; margin-bottom: 4em; display: flex; align-items: center; justify-content: space-between; gap: 1em;">
             <a href="https://github.com/Rishabkashyap14/URL-Classifier" target="_blank"
               style="position: absolute; top: 10px; right: 10px;">
               <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 24px; height: 24px;" />
@@ -157,19 +160,20 @@ content:
             <img src="images/URLs.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
             <div>
               <ul>
-                <li> Implementation of an efficient and optimized parallel training strategy</li>
-                <li> Utilizes Data, Model and Pipeline Parallel training formats. Tensor Parallel training is experimental.</li>
-                <li> Automated training code that identifies optimal strategies using cost functions.</li>
-                <li> Github link will be available soon </li>
+                <li> 7 Different Machine Learning models used together to classify whether a given URL is malicious or benign </li>
+                <li> Each of the first 6 ML models classify different attributes - Symbol frequency, DOM structure, content, etc. </li>
+                <li> An ensemble Decision tree is used as the final model to make decisions based on the outputs of the first 6 models. </li>
+                <li> Published at the IEEE CSDE conference ( As seen in Publications section ) </li>
               </ul>
             </div>
           </div>
+          <hr style="width: 50%; margin: 1em auto; border-top: 1px dotted #ccc;" />
           
 
       - layout: top-middle
         title: Movie Success Prediction using various Machine Learning Techniques
         description: |
-          <div style="display: flex; align-items: center; justify-content: space-between; gap: 1em;">
+          <div style="margin-top: 2em; margin-bottom: 4em; display: flex; align-items: center; justify-content: space-between; gap: 1em;">
             <a href="https://github.com/Rishabkashyap14/Movie-success-predictor" target="_blank"
               style="position: absolute; top: 10px; right: 10px;">
               <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 24px; height: 24px;" />
@@ -177,18 +181,20 @@ content:
             <img src="images/Movies.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
             <div>
               <ul>
-                <li> Implementation of an efficient and optimized parallel training strategy</li>
-                <li> Utilizes Data, Model and Pipeline Parallel training formats. Tensor Parallel training is experimental.</li>
-                <li> Automated training code that identifies optimal strategies using cost functions.</li>
-                <li> Github link will be available soon </li>
+                <li> ML model comparison to correctly classify and predict the success of a given movie. </li>
+                <li> Intense Exploratory Data Analysis performed to identify feature importances, usability, quality and correlation </li>
+                <li> Different ML models used different subsets of data derived from a common source to make a common prediction </li>
+                <>
+                <li> Publications at the MLDS'21 conference and IJAIA'21 journal as shown in the Publications section </li>
               </ul>
             </div>
           </div>
+          <hr style="width: 50%; margin: 1em auto; border-top: 1px dotted #ccc;" />
 
       - layout: top-middle
         title: Classification of Habitable Exoplanets using Machine Learning Methods
         description: |
-          <div style="display: flex; align-items: center; justify-content: space-between; gap: 1em;">
+          <div style="margin-top: 2em; display: flex; align-items: center; justify-content: space-between; gap: 1em;">
             <a href="https://github.com/Rishabkashyap14/CSE_575_Habitability" target="_blank"
               style="position: absolute; top: 10px; right: 10px;">
               <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 24px; height: 24px;" />
