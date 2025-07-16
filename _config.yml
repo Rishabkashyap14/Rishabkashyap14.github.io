@@ -68,13 +68,13 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: ABOUT ME
 about_profile_image: images/Profile_pic.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Hello ! My name is Rishab Kashyap and I am a Masters of Science in Computer Science student at Arizona State University. I work as a student researcher at [MPS Lab](https://labs.engineering.asu.edu/mps-lab/) in the field of Machine Learning Accelerators and Optimizations under the guidance of [Dr Aviral Shrivastava](https://search.asu.edu/profile/969623). I am currently looking for job opportunities in the field of Machine Learning, Data Science, Software Engineering, Robotics and Big Data Systems.
 
 content:
-  - title: My Skillset
+  - title: MY SKILLSET
     layout: list
     content:
       - layout: left
@@ -127,93 +127,11 @@ content:
             <a href = "https://en.wikipedia.org/wiki/Ubuntu" target="_blank"><img width=50px height=50px src="https://img.icons8.com/color/2x/ubuntu.png"></a>
             <a href = "https://anaconda.org/anaconda/conda" target="_blank"><img width=50px height=50px src="https://img.icons8.com/?size=100&id=F4uMFPZgS0gt&format=png&color=000000"></a>
             <a href = "https://spark.apache.org/docs/latest/api/python/index.html" target="_blank"><img width=100px height=50px src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8Z9E2NpvbfDssGMjaUG8lM2LhUrF601R4A&s"></a>
-
-  - title: Projects
-    layout: list
-    content:
-      - layout: top-middle
-        title: ADAPT - Automated Parallel Training for ML workloads on Heterogeneous Systems
-        description: |
-        
-          <div style="margin-top: 2em; margin-bottom: 4em; display: flex; align-items: center; justify-content: space-between; gap: 1em;">
-            <img src="images/Data_Parallelism_1.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
-            <div>
-              <ul>
-                <li> Implementation of an efficient and optimized parallel training strategy</li>
-                <li> Utilizes Data, Model and Pipeline Parallel training formats. Tensor Parallel training is experimental.</li>
-                <li> Automated training code that identifies optimal strategies using cost functions.</li>
-                <li> Github link will be available soon </li>
-              </ul>
-            </div>
-          </div>
-          <hr style="width: 50%; margin: 1em auto; border-top: 1px dotted #ccc;" />
-          
-
-      - layout: top-middle
-        title: Classification of Malicious URLs using an Ensemble Machine Learning Strategies
-        description: |
-          <div style="margin-top: 2em; margin-bottom: 4em; display: flex; align-items: center; justify-content: space-between; gap: 1em;">
-            <a href="https://github.com/Rishabkashyap14/URL-Classifier" target="_blank"
-              style="position: absolute; top: 10px; right: 10px;">
-              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 24px; height: 24px;" />
-            </a>
-            <img src="images/URLs.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
-            <div>
-              <ul>
-                <li> 7 Different Machine Learning models used together to classify whether a given URL is malicious or benign </li>
-                <li> Each of the first 6 ML models classify different attributes - Symbol frequency, DOM structure, content, etc. </li>
-                <li> An ensemble Decision tree is used as the final model to make decisions based on the outputs of the first 6 models. </li>
-                <li> Published at the IEEE CSDE conference ( As seen in Publications section ) </li>
-              </ul>
-            </div>
-          </div>
-          <hr style="width: 50%; margin: 1em auto; border-top: 1px dotted #ccc;" />
-          
-
-      - layout: top-middle
-        title: Movie Success Prediction using various Machine Learning Techniques
-        description: |
-          <div style="margin-top: 2em; margin-bottom: 4em; display: flex; align-items: center; justify-content: space-between; gap: 1em;">
-            <a href="https://github.com/Rishabkashyap14/Movie-success-predictor" target="_blank"
-              style="position: absolute; top: 10px; right: 10px;">
-              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 24px; height: 24px;" />
-            </a>
-            <img src="images/Movies.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
-            <div>
-              <ul>
-                <li> ML model comparison to correctly classify and predict the success of a given movie. </li>
-                <li> Intense Exploratory Data Analysis performed to identify feature importances, usability, quality and correlation </li>
-                <li> Different ML models used different subsets of data derived from a common source to make a common prediction </li>
-                <>
-                <li> Publications at the MLDS'21 conference and IJAIA'21 journal as shown in the Publications section </li>
-              </ul>
-            </div>
-          </div>
-          <hr style="width: 50%; margin: 1em auto; border-top: 1px dotted #ccc;" />
-
-      - layout: top-middle
-        title: Classification of Habitable Exoplanets using Machine Learning Methods
-        description: |
-          <div style="margin-top: 2em; display: flex; align-items: center; justify-content: space-between; gap: 1em;">
-            <a href="https://github.com/Rishabkashyap14/CSE_575_Habitability" target="_blank"
-              style="position: absolute; top: 10px; right: 10px;">
-              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 24px; height: 24px;" />
-            </a>
-            <img src="images/Exoplanets.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
-            <div>
-              <ul>
-                <li> Implementation of an efficient and optimized parallel training strategy</li>
-                <li> Utilizes Data, Model and Pipeline Parallel training formats. Tensor Parallel training is experimental.</li>
-                <li> Automated training code that identifies optimal strategies using cost functions.</li>
-                <li> Github link will be available soon </li>
-              </ul>
-            </div>
-          </div>
-          
+            <hr style="width: 100%; margin: 1em auto; border-top: 1px dotted #ccc;" />
 
 
 
-  - title: Experience # Title for the section
+  - title: EXPERIENCE # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -268,31 +186,152 @@ content:
             - Aim: To identify the ill effects of obesity among the Hispanic community
             - Performed Data Analysis on data provided by the All of Us foundation, funded by the [NIH](https://www.nih.gov/)
 
+
+
+  - title: MY PROJECTS
+    layout: list
+    content:
+      - layout: top-middle
+        title: ADAPT - Automated Parallel Training for ML workloads on Heterogeneous Systems
+        description: |
+          <div style="margin-top: 2em; margin-bottom: 4em; display: flex; align-items: center; justify-content: space-between; gap: 1em;">
+            <a href="https://github.com/Rishabkashyap14/" target="_blank" style="position: absolute; top: 10px; right: 10px;">
+              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 24px; height: 24px;" />
+            </a>
+            <img src="images/Data_Parallelism_1.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
+            <div>
+              <ul>
+                <li> Implementation of an efficient and optimized parallel training strategy </li>
+                <li> Utilizes Data, Model and Pipeline Parallel training formats. Tensor Parallel training is experimental. </li>
+                <li> Automated training code that identifies optimal strategies by evaluating cost functions. </li>
+                <li> Github link will be available soon </li>
+              </ul>
+            </div>
+          </div>
+          <hr style="width: 50%; margin: 1em auto; border-top: 1px dotted #ccc;" />
+          
+
+      - layout: top-middle
+        title: Classification of Malicious URLs using an Ensemble Machine Learning Strategies
+        description: |
+          <div style="margin-top: 2em; margin-bottom: 4em; display: flex; align-items: center; justify-content: space-between; gap: 1em;">
+            <a href="https://github.com/Rishabkashyap14/URL-Classifier" target="_blank" style="position: absolute; top: 10px; right: 10px;">
+              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 24px; height: 24px;" />
+            </a>
+            <img src="images/URLs.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
+            <div>
+              <ul>
+                <li> 7 Different Machine Learning models used together to classify whether a given URL is malicious or benign </li>
+                <li> Each of the first 6 ML models classify different attributes - Symbol frequency, DOM structure, content, etc. </li>
+                <li> An ensemble Decision tree is used as the final model to make decisions based on the outputs of the first 6 models. </li>
+                <li> Published at the IEEE-CSDE'21 conference ( As seen in Publications section ) </li>
+              </ul>
+            </div>
+          </div>
+          <hr style="width: 50%; margin: 1em auto; border-top: 1px dotted #ccc;" />
+          
+
+      - layout: top-middle
+        title: Movie Success Prediction using various Machine Learning Techniques
+        description: |
+          <div style="margin-top: 2em; margin-bottom: 4em; display: flex; align-items: center; justify-content: space-between; gap: 1em;">
+            <a href="https://github.com/Rishabkashyap14/Movie-success-predictor" target="_blank" style="position: absolute; top: 10px; right: 10px;">
+              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 24px; height: 24px;" />
+            </a>
+            <img src="images/Movies.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
+            <div>
+              <ul>
+                <li> ML model comparison to correctly classify and predict the success of a given movie. </li>
+                <li> Intense Exploratory Data Analysis performed to identify feature importances, usability, quality and correlation </li>
+                <li> Different ML models used different subsets of data derived from a common source to make a common prediction </li>
+                <>
+                <li> Publications at the MLDS'21 conference and IJAIA'21 journal as shown in the Publications section </li>
+              </ul>
+            </div>
+          </div>
+          <hr style="width: 50%; margin: 1em auto; border-top: 1px dotted #ccc;" />
+
+      - layout: top-middle
+        title: Classification of Habitable Exoplanets using Machine Learning Methods
+        description: |
+          <div style="margin-top: 2em; display: flex; align-items: center; justify-content: space-between; gap: 1em;">
+            <a href="https://github.com/Rishabkashyap14/CSE_575_Habitability" target="_blank" style="position: absolute; top: 10px; right: 10px;">
+              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width: 24px; height: 24px;" />
+            </a>
+            <img src="images/Exoplanets.png" alt="Diagram" style="width: 30%; border: 2px solid #ccc; padding:20px; border-radius: 8px;" />
+            <div>
+              <ul>
+                <li> Utilize different Machine Learning models to classify whether an exoplanet is habitable or not </li>
+                <li> Features are extraccted from the NASA Kepler dataset of exoplanets discovered till date </li>
+                <li> Different models are evaluated on their performances to find the best possible model to use for classification </li>
+              </ul>
+            </div>
+          </div>
         
       
-  - title: Education # Title for the section
+  - title: EDUCATION # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Arizona State University
         caption: 2022 - Present
-        sub_title: MS Computer Science
+        sub_title: Masters of Science in Computer Science
         quote: >
-          - TBD -
+          "!!! Go Devils !!!"
         description: | # this will include new lines to allow paragraphs
-          - TBD -
+          - Located in Tempe, Arizona, USA
+          - Pursuing a Thesis as a part of my Masters Degree. Current Aggregate GPA : <mark> 3.46 </mark>
+          - Worked on multiple projects and research opportunities as a part of the MPS-Lab
+          - Relevant Coursework: Combinatorial Algorithms, Privacy in Machine Learning, Statstical Machine Learning, Artificial Intelligence, Knowledge Representation and Reasoning, Advanced Operating Systems, Quantum Computing, Computer Architecture
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - layout: left
+        title: PES University
+        caption: 2018 - 2022
+        sub_title: Bachelors of Science in Computer Science
+        quote: >
+          "Perseverence, Excellence, Service"
+        description: | # this will include new lines to allow paragraphs
+          - Located on Hosur Road, Bengaluru, India
+          - Completed my degree with an aggregate GPA of <mark> 8.12 </mark>
+          - Start of my research path - participated in numerous ideathons and hackathons
+          - Part of the ACM student Chapter to host hackathons and inter-college competitions
+          - Member of the PESU South Basketball team 
+          - Three publications under the guidance of [Dr R Bharathi](https://pes.irins.org/profile/371414) and Professor [Ananthanagu U](https://www.alliance.edu.in/faculty/prof-ananthanagu-u)
+
+      - layout: left
+        title: Deeksha Center for Learning
+        caption: 2016 - 2018
+        sub_title: High School
+        quote: >
+          "Work Hard, But Work Smart"
+        description: | # this will include new lines to allow paragraphs
+          - Located on Kanakapura Road, Bengaluru, India
+          - Completed my 11th and 12th here, with rigorous training integrated with ACE. Overall Percentage of <mark> 96 % </mark>
+          - Part of the Basketball team, and IIT training batch. Tough days 😅
+
+      - layout: left
+        title: The Brigade School
+        caption: 2006 - 2016
+        sub_title: Primary Schooling
+        quote: >
+          "O nanna chetana, aaguni aniketana" "O my spirit, transcend all boundaries"
+        description: | # this will include new lines to allow paragraphs
+          - Located at J.P Nagar 8th Phase, Puttenahalli, Bengaluru, India
+          - Part of this school from 1st grade to 10th grade, with a 10th GPA of <mark> 9.2 </mark>
+          - Participated in numerous olympiads, school fests, theatre plays and science fairs
+          - Played in the intra-school sports and cultural competitions - Basketball, Volleyball, Football, Athletics, MUN, Theater, Music
+
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
