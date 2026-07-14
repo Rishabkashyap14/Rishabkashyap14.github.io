@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Default Theme: Light Mode (Light Grey background, dark and light blue accents) */
+:root {
+  --font-sans: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Colors (Light mode defaults) */
+  --bg-primary: #f3f4f6; /* Light grey background */
+  --bg-secondary: #ffffff; /* White card background */
+  --bg-tertiary: #e5e7eb; /* Light grey divider */
+  --text-primary: #0f1e36; /* Deep dark blue */
+  --text-secondary: #3b4f6b; /* Slate blue */
+  --text-muted: #64748b;
+  
+  --accent: #1e40af; /* Dark blue */
+  --accent-light: #3b82f6; /* Light blue */
+  --accent-gradient: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%);
+  --accent-gradient-hover: linear-gradient(135deg, #1d4ed8 0%, #2563eb 50%, #3b82f6 100%);
+  
+  --border-color: rgba(15, 30, 54, 0.08);
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(15, 30, 54, 0.06);
+  --glass-shadow: 0 8px 32px 0 rgba(15, 23, 42, 0.05);
+  
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  --max-width: 1200px;
+}
+
+/* Dark Theme overrides (Toggled with data-theme="dark") */
+html[data-theme='dark'] {
+  --bg-primary: #0b1120; /* Dark navy background */
+  --bg-secondary: #111b30; /* Dark blue card background */
+  --bg-tertiary: #1e293b; /* Dark slate divider */
+  --text-primary: #f1f5f9; /* Light grey-blue */
+  --text-secondary: #94a3b8; /* Muted grey-blue */
+  --text-muted: #64748b;
+  
+  --accent: #38bdf8; /* Bright light blue */
+  --accent-light: #60a5fa; /* Medium light blue */
+  --accent-gradient: linear-gradient(135deg, #1d4ed8 0%, #38bdf8 100%);
+  --accent-gradient-hover: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%);
+  
+  --border-color: rgba(255, 255, 255, 0.08);
+  --glass-bg: rgba(17, 27, 48, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.06);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* Base Resets */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bg-tertiary);
+  border-radius: 5px;
+  border: 2px solid var(--bg-primary);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-light);
+}
+
+/* Common Layout Utilities */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 1.25rem;
+  }
+}
+
+/* Typography & Headers */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+p {
+  color: var(--text-secondary);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+/* Button & Link Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all var(--transition-smooth);
+  border: none;
+  font-family: var(--font-sans);
+}
+
+.btn-primary {
+  background: var(--accent-gradient);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6);
+  background: var(--accent-gradient-hover);
+}
+
+.btn-secondary {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.btn-secondary:hover {
+  transform: translateY(-2px);
+  background: var(--bg-tertiary);
+  border-color: var(--accent-light);
+}
+
+/* Glassmorphism Class */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+}
+
+/* Custom Gradients & Text */
+.text-gradient {
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+
+/* Utilities */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
