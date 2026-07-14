@@ -1,9 +1,0 @@
-{% for link in site.additional_links %}
-  <a href="{{ link.url }}" title="{{ link.title }}">
-    {% if link.icon == 'custom-google-scholar' %}
-      <img src="{{ '/assets/icons/google-scholar.svg' | relative_url }}" alt="Google Scholar" style="height: 1.2em; vertical-align: middle;">
-    {% else %}
-      <i class="{{ link.icon }}"></i>
-    {% endif %}
-  </a>
-{% endfor %}
